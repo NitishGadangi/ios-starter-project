@@ -16,6 +16,8 @@
 		5E78BF202C581B37000B4863 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5E78BF1F2C581B37000B4863 /* SnapKit */; };
 		5E78BF232C581B84000B4863 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5E78BF222C581B84000B4863 /* RxCocoa */; };
 		5E78BF262C581B90000B4863 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5E78BF252C581B90000B4863 /* RxSwift */; };
+		5E78BF292C582171000B4863 /* NetworkCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5E78BF282C582171000B4863 /* NetworkCore */; };
+		5E78BF2B2C582176000B4863 /* CommonUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 5E78BF2A2C582176000B4863 /* CommonUtils */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +40,9 @@
 				5E78BF232C581B84000B4863 /* RxCocoa in Frameworks */,
 				5E78BF1D2C581B1E000B4863 /* Kingfisher in Frameworks */,
 				5E78BF262C581B90000B4863 /* RxSwift in Frameworks */,
+				5E78BF2B2C582176000B4863 /* CommonUtils in Frameworks */,
 				5E78BF202C581B37000B4863 /* SnapKit in Frameworks */,
+				5E78BF292C582171000B4863 /* NetworkCore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +117,8 @@
 				5E78BF1F2C581B37000B4863 /* SnapKit */,
 				5E78BF222C581B84000B4863 /* RxCocoa */,
 				5E78BF252C581B90000B4863 /* RxSwift */,
+				5E78BF282C582171000B4863 /* NetworkCore */,
+				5E78BF2A2C582176000B4863 /* CommonUtils */,
 			);
 			productName = DemoApp;
 			productReference = 5E78BF012C580679000B4863 /* DemoApp.app */;
@@ -436,6 +442,14 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5E78BF212C581B72000B4863 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxSwift;
+		};
+		5E78BF282C582171000B4863 /* NetworkCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkCore;
+		};
+		5E78BF2A2C582176000B4863 /* CommonUtils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CommonUtils;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

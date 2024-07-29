@@ -11,17 +11,26 @@ public protocol NetworkManagable {
     func sendRequest<T: Decodable>(endpoint: NetworkAPI, completion: @escaping (Result<T, Error>) -> Void)
 }
 
+public enum NetworkManagerEnv {
+    case prod
+    case stage
+}
+
 public class NetworkManager: NetworkManagable {
 
     private let networkService: NetworkServicable
 
-    init(networkService: NetworkServicable) {
-        self.networkService = networkService
+    public init(env: NetworkManagerEnv = .prod) {
+        switch env {
+            case .prod:
+                networkService = NetworkService()
+            case .stage:
+                networkService = NetworkServiceMock()
+        }
     }
 
     public func sendRequest<T>(endpoint: any NetworkAPI, completion: @escaping (Result<T, any Error>) -> Void) where T : Decodable {
-        networkService.request(endPoint: endpoint) { [weak self] data, response, error in
-            guard let self else { return }
+        networkService.request(endPoint: endpoint) { data, response, error in
             if error != nil {
                 let networkError = NetworkError(message: NetworkResponse.failed.rawValue)
                 completion(.failure(networkError))
