@@ -1,0 +1,109 @@
+{
+  "header": "Section Title",
+  "items": [
+    {
+      "template_type": "asset_carousel_card",
+      "assets": [
+        {
+          "url": "https://i.imgur.com/WGVSCWQ.jpg",
+          "type": "IMAGE",
+          "aspect_ratio": 1.8
+        },
+        {
+          "url": "https://i.imgur.com/n9TGJsT.jpg",
+          "type": "IMAGE",
+          "aspect_ratio": 1.8
+        }
+      ]
+    },
+    {
+      "template_type": "title_location_card",
+      "title": "Title - Mad Max saga : Fury Road",
+      "sub_title": "Body text - When the world is taken by darkness, A hero will rise.",
+      "location": {
+        "text": "Cinephile, Banglore",
+        "asset": {
+          "url": "https://i.imgur.com/BChvIFM.png",
+          "type": "IMAGE",
+          "aspect_ratio": 1.8
+        }
+      },
+      "date_time": {
+        "text": "8:30 PM, 28th July, Wednesday",
+        "asset": {
+          "url": "https://i.imgur.com/meekUTN.png",
+          "type": "IMAGE",
+          "aspect_ratio": 1.8
+        }
+      },
+      "tag": "SPECIAL TAG - BLOCKBUSTER"
+    },
+    {
+      "template_type": "countdown_timer_card",
+      "end_time": 1723236441,
+      "header": "Booking will close in :"
+    },
+    {
+      "template_type": "social_proofing_card",
+      "description": "Till now 10,000+ Users have already booked tickets.",
+      "assets": [
+        {
+          "url": "https://i.imgur.com/FAcjxC9.jpg",
+          "type": "IMAGE",
+          "aspect_ratio": 1
+        },
+        {
+          "url": "https://i.imgur.com/ApSECjn.png",
+          "type": "IMAGE",
+          "aspect_ratio": 1
+        },
+        {
+          "url": "https://i.imgur.com/FAcjxC9.jpg",
+          "type": "IMAGE",
+          "aspect_ratio": 1
+        },
+        {
+          "url": "https://i.imgur.com/ApSECjn.png",
+          "type": "IMAGE",
+          "aspect_ratio": 1
+        },
+        {
+          "url": "https://i.imgur.com/FAcjxC9.jpg",
+          "type": "IMAGE",
+          "aspect_ratio": 1
+        },
+        {
+          "url": "https://i.imgur.com/ApSECjn.png",
+          "type": "IMAGE",
+          "aspect_ratio": 1
+        }
+      ]
+    },
+    {
+      "template_type": "additional_details_card",
+      "details": [
+        {
+          "header": "About",
+          "body": "In 3102 BC, following the Kurukshetra War, Ashwatthama attempts to kill Uttarā's unborn child by invoking the Brahmashirastra, a godly weapon of unimaginable destruction. For committing the act, Krishna, the 8th reincarnation of Vishnu, curses him to roam the earth as an immortal and witness humanity's misery as a result of societal and moral deterioration in the Kali Yuga. His divine gem is also taken from his forehead, and his redemption is destined to occur through protecting the mother of Vishnu's next reincarnation, Kalki, towards the end of Kali Yuga.[b]\n\nIn 2898 AD, six thousand years after the events of the Kurukshetra War, the desertified city of Kasi stands as the last known city in a post-apocalyptic world dominated by Supreme Yaskin, a totalitarian god-king. Yaskin rules from the \"Complex\", an inverted-pyramidal-megastructure that hovers above the city, extracting Earth's resources to sustain a gated paradise accessible only to those who can pay 1 million \"units\". His authority is enforced by Commander Manas, Counsellor Bani and the Raiders, who vigilantly guard against threats, particularly the prophesied arrival of Kalki.\n\nIn this dystopian society, fertile female refugees in Kasi are forcibly taken to the Complex for Project K, an experiment aimed at producing a life-extending serum for the 200-year-old Yaskin through artificially inseminated foetuses. However, no woman survives more than 120 days of pregnancy, resulting in their deaths. Raia, a young girl disguised as a boy, narrowly escapes conscription with the help of rebels led by Rumi from the hidden city of Shambhala.[c] Rumi and Divya, a pregnant woman believed to be carrying Kalki, are captured and publicly executed by Manas for refusing to reveal Shambhala's location. After Manas sets a bounty on Shambhala rebels, Raia finds refuge in a cave where she encounters Ashwatthama. She unknowingly brings him his divine gem, Shivamani, which has been found by and passed on among the Shambhala rebels. Together, they set out to find the real mother of Kalki."
+        },
+        {
+          "header": "Cast",
+          "body": "In 3102 BC, following the Kurukshetra War, Ashwatthama attempts to kill Uttarā's unborn child by invoking the Brahmashirastra, a godly weapon of unimaginable destruction. For committing the act, Krishna, the 8th reincarnation of Vishnu, curses him to roam the earth as an immortal and witness humanity's misery as a result of societal and moral deterioration in the Kali Yuga. His divine gem is also taken from his forehead, and his redemption is destined to occur through protecting the mother of Vishnu's next reincarnation, Kalki, towards the end of Kali Yuga.[b]\n\nIn 2898 AD, six thousand years after the events of the Kurukshetra War, the desertified city of Kasi stands as the last known city in a post-apocalyptic world dominated by Supreme Yaskin, a totalitarian god-king. Yaskin rules from the \"Complex\", an inverted-pyramidal-megastructure that hovers above the city, extracting Earth's resources to sustain a gated paradise accessible only to those who can pay 1 million \"units\". His authority is enforced by Commander Manas, Counsellor Bani and the Raiders, who vigilantly guard against threats, particularly the prophesied arrival of Kalki.\n\nIn this dystopian society, fertile female refugees in Kasi are forcibly taken to the Complex for Project K, an experiment aimed at producing a life-extending serum for the 200-year-old Yaskin through artificially inseminated foetuses. However, no woman survives more than 120 days of pregnancy, resulting in their deaths. Raia, a young girl disguised as a boy, narrowly escapes conscription with the help of rebels led by Rumi from the hidden city of Shambhala.[c] Rumi and Divya, a pregnant woman believed to be carrying Kalki, are captured and publicly executed by Manas for refusing to reveal Shambhala's location. After Manas sets a bounty on Shambhala rebels, Raia finds refuge in a cave where she encounters Ashwatthama. She unknowingly brings him his divine gem, Shivamani, which has been found by and passed on among the Shambhala rebels. Together, they set out to find the real mother of Kalki."
+        },
+        {
+          "header": "Timings",
+          "body": "A modern-day avatar of Vishnu, a Hindu god, who is believed to have descended to earth to protect the world from evil forces"
+        },
+        {
+          "header": "Location",
+          "body": "A modern-day avatar of Vishnu, a Hindu god, who is believed to have descended to earth to protect the world from evil forces"
+        },
+        {
+          "header": "Process",
+          "body": "A modern-day avatar of Vishnu, a Hindu god, who is believed to have descended to earth to protect the world from evil forces"
+        }
+      ]
+    }
+  ]
+}
+
