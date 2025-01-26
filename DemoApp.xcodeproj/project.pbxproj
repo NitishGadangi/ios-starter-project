@@ -18,6 +18,7 @@
 		5E78BF262C581B90000B4863 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5E78BF252C581B90000B4863 /* RxSwift */; };
 		5E78BF292C582171000B4863 /* NetworkCore in Frameworks */ = {isa = PBXBuildFile; productRef = 5E78BF282C582171000B4863 /* NetworkCore */; };
 		5E78BF2B2C582176000B4863 /* CommonUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 5E78BF2A2C582176000B4863 /* CommonUtils */; };
+		5EFCB39D2D460B35001BDE3C /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFCB39C2D460B15001BDE3C /* DateCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		5E78BF122C58067B000B4863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E78BF1A2C580A36000B4863 /* NetworkCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NetworkCore; sourceTree = "<group>"; };
 		5E78BF272C581BC1000B4863 /* CommonUtils */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CommonUtils; sourceTree = "<group>"; };
+		5EFCB39C2D460B15001BDE3C /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		5E78BF032C580679000B4863 /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				5EFCB39C2D460B15001BDE3C /* DateCell.swift */,
 				5E78BF042C580679000B4863 /* AppDelegate.swift */,
 				5E78BF062C580679000B4863 /* SceneDelegate.swift */,
 				5E78BF082C580679000B4863 /* ViewController.swift */,
@@ -181,6 +184,7 @@
 			files = (
 				5E78BF092C580679000B4863 /* ViewController.swift in Sources */,
 				5E78BF052C580679000B4863 /* AppDelegate.swift in Sources */,
+				5EFCB39D2D460B35001BDE3C /* DateCell.swift in Sources */,
 				5E78BF072C580679000B4863 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
